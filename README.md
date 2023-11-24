@@ -2,7 +2,7 @@
 
 The full report can be found here: https://drive.google.com/file/d/1hf9RqRUNuUGoqvj3U3iavv8bu_gbQGa9/view?usp=sharing 
 
-This research investigates developing an automated tool to monitor global progress on the United Nations' 17 Sustainable Development Goals (SDGs). The research considers how tracking global news streams, could help in identifying areas of sustainability that are receiving attention, as well as early warning signs of potential issues. The paper evaluates the performance of contemporary semantic modelling approaches at identifying similarities between news articles and SDG topics.
+This research investigates developing an automated tool to monitor global progress of the United Nations' 17 Sustainable Development Goals (SDGs). The research considers how tracking global news streams, could help in identifying areas of sustainability that are receiving attention, as well as early warning signs of potential issues. The paper evaluates the performance of contemporary semantic modelling approaches at identifying similarities between news articles and SDG topics.
 
 The research will involve three datasets, including two from Hugging Face and the UN's Sustainability Goals. The first dataset, comprising BBC news articles categorized by topics, will test each model's accuracy in associating articles with correct topics. The second dataset, containing articles from CNN and the Daily Mail, will be used for a final evaluation of the models' abilities to link news articles with the SDGs. The study aims to benchmark various semantic representation techniques and develop a system for effectively monitoring SDG-related developments.
 
