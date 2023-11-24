@@ -21,6 +21,7 @@ Given the task of text similarity matching, this paper aims to demonstrate that 
 Figure 1: Word2Vec SDG Similarity Scoresfor 250 articles in the CNN/DailyMail Dataset
 
 ![Screenshot 2023-11-24 165547](https://github.com/JV11x/Matching_SDGs_With_News_NLP/assets/114994769/317bfab2-1d60-449e-94ca-a726018beecb)
+
 Figure 2: Classification accuracy metrics for all models performing the Labeled Articles Challenge
 
 ## Conclusion
