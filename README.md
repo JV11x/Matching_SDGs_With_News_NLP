@@ -17,7 +17,7 @@ Given the task of text similarity matching, this paper aims to demonstrate that 
 - Using a sample of the CNN Daily Mail dataset and the UN SDGs, develop an average similarity score for each SDG topic across all the articles in the dataset, before manually assessing the outputs for accuracy and errors.
 - Hand label a subset of the CNN Daily Mail dataset with their most related SDG topic areas, before testing whether each embedding technique can classify the article with its correct SDG topic label.
 
-Figure 1: Word2Vec SDG Similarity Scoresfor 250 articles in the CNN/DailyMail Dataset
+Figure 1: Word2Vec SDG Similarity Scores for 250 articles in the CNN/DailyMail Dataset
 ![image](https://github.com/JV11x/Matching_SDGs_With_News_NLP/assets/114994769/e7bad9a0-e167-4c69-a849-372f5c299f88)
 
 Figure 2: Classification accuracy metrics for all models performing the Labeled Articles Challenge
