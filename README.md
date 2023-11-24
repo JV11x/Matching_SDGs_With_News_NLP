@@ -1,5 +1,6 @@
 # Using Similarity Scoring Techniques to Match Sustainability Topics with News Articles.
 
+Link to Jupyter Notebook in Google Colab: https://colab.research.google.com/drive/1l16stfwbDaX0Ptupb1A-n2RAPdUSfSew?usp=sharing
 The full report can be found here: https://drive.google.com/file/d/1hf9RqRUNuUGoqvj3U3iavv8bu_gbQGa9/view?usp=sharing 
 
 This research investigates developing an automated tool to monitor global progress of the United Nations' 17 Sustainable Development Goals (SDGs). The research considers how tracking global news streams, could help in identifying areas of sustainability that are receiving attention, as well as early warning signs of potential issues. The paper evaluates the performance of contemporary semantic modelling approaches at identifying similarities between news articles and SDG topics.
