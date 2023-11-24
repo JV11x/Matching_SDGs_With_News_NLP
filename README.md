@@ -16,3 +16,14 @@ Given the task of text similarity matching, this paper aims to demonstrate that 
 ## Main experiments
 - Using a sample of the CNN Daily Mail dataset and the UN SDGs, develop an average similarity score for each SDG topic across all the articles in the dataset, before manually assessing the outputs for accuracy and errors.
 - Hand label a subset of the CNN Daily Mail dataset with their most related SDG topic areas, before testing whether each embedding technique can classify the article with its correct SDG topic label.
+
+![image](https://github.com/JV11x/Matching_SDGs_With_News_NLP/assets/114994769/e7bad9a0-e167-4c69-a849-372f5c299f88)
+Figure 1: Word2Vec SDG Similarity Scoresfor 250 articles in the CNN/DailyMail Dataset
+
+![Screenshot 2023-11-24 165547](https://github.com/JV11x/Matching_SDGs_With_News_NLP/assets/114994769/317bfab2-1d60-449e-94ca-a726018beecb)
+Figure 2: Classification accuracy metrics for all models performing the Labeled Articles Challenge
+
+## Conclusion
+The project showed that text embedding models which generate vectors using longer text strings, perform better at semantic matching tasks, than those using shorter token strings. The performance advantage enabled by using longer text-strings can lead to less sophisticated shallow neural network approaches like Doc2Vec Skip Gram model outperforming transformer-based embedding approaches. This came as a surprise given the performance of SentBERT in relation to other semantic similarity benchmarking tasks. The experiment also indicates the importance of applying relevant training data. 
+Heavily pre-trained models underperformed approaches which incorporate updates from directly relevant text samples. The accuracy approaches achieved by our approches weren't sufficient for a real-world deployment of the SDG news monitoring tool. Extensive further work building on this research is still required to deliver a performant version of the monitoring tool.
+
